@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+body {
+    background-image: url("../image/cosmos-universo.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: rgba(3, 1, 24, 0.473);
+    width: 800px;
+    height: auto;
+    border-radius: 50px;
+    padding: 30px;
+    margin: auto;
+}
+.titulo1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: underline;
+  }
+
+  p {
+    color: aliceblue;
+    font-family: 'Orbitron', sans-serif;
+    text-align: justify;
+  }
+
+.imgsiri{
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcan {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imgcent {
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-e-texto {
+    width: 100%;
+}
+
+.imagem-e-texto img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.classbotao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    background-color: #06011d;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
